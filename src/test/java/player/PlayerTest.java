@@ -18,5 +18,15 @@ public class PlayerTest {
         Assert.assertEquals(false, player.play());
     }
 
+    @Test
+    public void winsWhenDiceNumberIsBig(){
+        Dice dice = Mockito.mock(Dice.class);
+
+        Mockito.when(dice.roll()).thenReturn(4);
+
+        Player player = new Player(dice, 3);
+        Assert.assertEquals(true, player.play());
+    }
+
 
 }
