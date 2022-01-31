@@ -1,6 +1,7 @@
 package com.platzi.javatests.util;
 
 import org.junit.Test;
+import util.PasswordUtil;
 
 import static org.junit.Assert.*;
 

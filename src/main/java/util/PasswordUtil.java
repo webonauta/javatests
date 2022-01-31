@@ -1,6 +1,4 @@
-package com.platzi.javatests.util;
-
-import static com.platzi.javatests.util.PasswordUtil.SecurityLevel.WEAK;
+package util;
 
 public class PasswordUtil {
 
