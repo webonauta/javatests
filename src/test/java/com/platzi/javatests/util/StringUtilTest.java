@@ -5,7 +5,6 @@ public class StringUtilTest {
     public static void main(String[] args) {
 
         assertEquals(StringUtil.repeat("Hola", 3), "HolaHolaHola");
-
         assertEquals(StringUtil.repeat("Hola", 1), "Hola");
     }
 
